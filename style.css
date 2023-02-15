@@ -5,8 +5,12 @@
     color: white;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
 body{
     background-color: black;
+    font-family: 'Poppins'
 }
 
 section{
@@ -39,7 +43,6 @@ section{
 
 header{
     height: 100px;
-    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -61,7 +64,10 @@ header{
 }
 
 .inance{
+    font-style: normal;
+    font-weight: 800;
     font-size: 38px;
+    line-height: 57px;
 }
 
 /* side bar */
@@ -71,7 +77,7 @@ ul{
 }
 
 .dashboard{
-    background-color: blue;
+    background: linear-gradient(266.37deg, #FAFF00 -5.82%, #FAFF00 15.95%, #1970D6 41.2%, #6C1182 72.88%);
     color: black;
     border-radius: 10px;
     width: 180px;
@@ -80,6 +86,20 @@ ul{
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+}
+
+.txt_dashboard{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 41px;
+}
+
+.txt_sidebar{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 41px;
 }
 
 .link_sidebar{
@@ -101,7 +121,9 @@ ul{
 .logout{
     display: flex;
     align-items: center;
-    margin-top: 150px;
+    position: absolute;
+    bottom: 0px;
+    font-family: 'Inter' !important;
 }
 
 /* mid */
@@ -130,6 +152,20 @@ ul{
     justify-content: left;
     margin-top: 21px;
     margin-bottom: 10px;
+}
+
+.total_balance{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 33px;
+}
+
+.bottom_total_balance{
+    font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 48px;
 }
 
 .tabs{
@@ -165,7 +201,7 @@ ul{
 .graph{
     border-radius: 20px;
     width: 1000px;
-    height: 350px;
+    height: 300px;
     background-color: #292727;
 }
 
@@ -199,6 +235,7 @@ ul{
     border-radius: 15px;
     padding: 5px;
     margin-bottom: 10px;
+    font-family: 'Inter' !important;
 }
 
 .logo_recap_transac{
@@ -218,7 +255,8 @@ ul{
 .recent_transaction_money{
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 8px;
+    font-family: 'Inter' !important;
 }
 
 .logo_recent_transaction_money{
@@ -228,6 +266,13 @@ ul{
 
 .info_recent_transaction_money{
     width: 150px;
+}
+
+.recent_transaction{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 36px;
 }
 
 .div_recent_transactions{
@@ -241,10 +286,18 @@ ul{
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-top: 3px;
     margin-bottom: 10px;
     width: 400px;
+    font-family: 'Inter' !important;
+}
+
+.txt_title_right{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 39px;
 }
 
 .flex_b{
