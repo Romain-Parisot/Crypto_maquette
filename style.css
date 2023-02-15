@@ -79,6 +79,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .link_sidebar{
@@ -163,7 +164,7 @@ ul{
 
 .graph{
     border-radius: 20px;
-    width: 700px;
+    width: 1000px;
     height: 350px;
     background-color: #292727;
 }
@@ -172,6 +173,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 5px;
 }
 
 .Recap_transactions a{
@@ -257,10 +259,11 @@ ul{
 
 .asset1{
     color: white;
+    background: linear-gradient(98.73deg, #611D8D 35.75%, #2F7EC1 73.26%);
 }
 
 .asset2{
-    color: black;
+    background: linear-gradient(99.56deg, #FAFF00 35.82%, #29ABE2 64.75%, rgba(255, 255, 255, 0.7) 91.33%);
 }
 
 .div_asset{
@@ -273,4 +276,30 @@ ul{
 .title_assets{
     margin-left: 30px;
     margin-bottom: 5px;
+}
+
+/* color */
+
+.color_black{
+    color: black;
+}
+
+.color_green{
+    color: #4AD619;
+}
+
+.color_red{
+    color: #D61919;
+}
+
+.color_blue{
+    color: #1970D6;
+}
+
+.color_purpule{
+    color: #6C1182
+}
+
+.opacity07{
+    opacity: 0.7;
 }
