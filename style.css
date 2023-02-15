@@ -9,6 +9,10 @@ body{
     background-color: black;
 }
 
+section{
+    display: flex;
+    align-content: center;
+}
 
 .flex{
     display: flex;
@@ -34,7 +38,7 @@ body{
 /* header */
 
 header{
-    height: 150px;
+    height: 100px;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -97,4 +101,176 @@ ul{
     display: flex;
     align-items: center;
     margin-top: 150px;
+}
+
+/* mid */
+
+.top_center{
+    display: flex;
+    align-items: center;
+}
+
+.BTC{
+    background-color: yellow;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin-left: 5px;
+}
+.BTCtext{
+    padding: 3px;
+    color: black;
+}
+.divBTC{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 21px;
+    margin-bottom: 10px;
+}
+
+.tabs{
+    background: #292727;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.selectedtabs{
+    background-color: #0D0C0C;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.parents_tabs{
+    display: flex;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.div_graph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.graph{
+    border-radius: 20px;
+    width: 700px;
+    height: 350px;
+    background-color: #292727;
+}
+
+.Recap_transactions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Recap_transactions a{
+    text-decoration: none;
+}
+
+.graphtransac{
+    width: 140px;
+}
+
+.divcoltransac{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info_recap_transactions{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #292727;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.logo_recap_transac{
+    width: 39px;
+    height: 39px;
+}
+
+.trade_button{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 6px;
+}
+
+/* right */
+
+.recent_transaction_money{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo_recent_transaction_money{
+    width: 50px;
+    padding-right: 15px;
+}
+
+.info_recent_transaction_money{
+    width: 150px;
+}
+
+.div_recent_transactions{
+    margin-left: 30px;
+}
+
+.assets{
+    display: flex;
+    background-color: blue;
+    border-radius: 30px;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.flex_b{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_assets{
+    width: 70px;
+}
+
+.asset1{
+    color: white;
+}
+
+.asset2{
+    color: black;
+}
+
+.div_asset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title_assets{
+    margin-left: 30px;
+    margin-bottom: 5px;
 }
