@@ -1,3 +1,4 @@
+// ----------------------------graph-----------------------------------
 let graph = document.getElementById('graph').getContext('2d')
 
 new Chart(graph, {
@@ -77,3 +78,19 @@ new Chart(graph, {
 
 
 
+// ---------------------------------- burger menu -----------------------------------------
+function toggleburger(){
+    let burger=document.querySelector('.burger_bt')
+    let barUp=document.querySelector('.bar_up')
+    let barDown=document.querySelector('.bar_down')
+    let barMid=document.querySelector('.bar_mid')
+    let menu_burger=document.querySelector('.burger')
+    burger.addEventListener('click', ()=>{
+        barMid.classList.toggle('none');
+        barUp.classList.toggle('barAnimationTop');
+        barDown.classList.toggle('barAnimationBot');
+        menu_burger.classList.toggle('none')
+        burger.classList.toggle('burger_bt_cross')
+    })  
+}
+toggleburger();

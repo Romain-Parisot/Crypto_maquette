@@ -428,28 +428,69 @@ line-height: 48px;
 
 .burger{
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
     background-color: grey;
     position: absolute;
     z-index: 10;
     top: 0;
 }
+.burger_bt{
+    display: flex;
+    flex-direction: column;
+    background: none;
+    border: none;
+}
+
+.bar{
+    width: 45px;
+    height: 4px;
+    background-color: white;
+    margin-top: 9px;
+}
+
+.bar_mid{
+    width: 30px;
+}
+
+.bar_up , .bar_down{
+    transition: 0.4s;
+    transform: rotate(0deg);
+}
+
+.barAnimationTop{
+    transform: rotate(45deg) translateY(9px);
+
+}
+
+.barAnimationBot{
+    transform: rotate(-45deg) translateY(-9px);
+}
+
+.burger_bt_cross{
+    position: absolute;
+    z-index: 11;
+    top: 10px;
+    right: 10px;
+}
 
 @media screen and (max-width: 1000px) {
     section{
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         justify-content: center;
+        padding: 20px;
     }
     .hiname{
         display: none;
     }
     .search_input{
         width: 200px;
+    }
+    .user_img{
         display: none;
     }
     header{
-        width: 100vw;
+        justify-content: space-evenly;
     }
     .parents_tabs{
         /* a changer */
@@ -478,6 +519,13 @@ line-height: 48px;
     }
     .ul_burger{
         padding: 10px;
-        margin-top: 50px;
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .next_to_graph{
+        
     }
 }
