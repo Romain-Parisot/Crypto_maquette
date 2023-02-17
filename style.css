@@ -10,7 +10,7 @@
 
 body{
     background-color: black;
-    font-family: 'Poppins'
+    font-family: 'Poppins';   
 }
 
 section{
@@ -205,7 +205,7 @@ line-height: 48px;
 }
 
 #graph{
-    height: 300px !important;
+    height: 250px !important;
 }
 
 .bt_top{
@@ -434,12 +434,7 @@ line-height: 48px;
     z-index: 10;
     top: 0;
 }
-.burger_bt{
-    display: flex;
-    flex-direction: column;
-    background: none;
-    border: none;
-}
+
 
 .bar{
     width: 45px;
@@ -565,5 +560,11 @@ line-height: 48px;
     .bt_top{
         flex-direction: column;
         gap: 20px;
+    }
+    .burger_bt{
+        display: flex;
+        flex-direction: column;
+        background: none;
+        border: none;
     }
 }
