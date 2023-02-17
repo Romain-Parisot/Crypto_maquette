@@ -526,6 +526,44 @@ line-height: 48px;
         flex-direction: column;
     }
     .next_to_graph{
-        
+        width: calc(100vw - 40px);
+    }
+    .info_recap_transactions{
+        height: 400px;
+        flex-direction: column;
+        width: 43vw;
+        text-align: center;
+    }
+    .parent_info_recap_transactions{
+        display: flex;
+        justify-content: space-between;
+    }
+    .graphtransac{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main_right{
+        width: calc(100vw - 40px);
+    }
+    .txt_title_right{
+        text-align: center;
+    }
+    .assets{
+        width: 70vw;
+    }
+    .title_assets{
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .graph{
+        width: 90vw;
+    }
+    .div_graph{
+        display: block;
+    }
+    .bt_top{
+        flex-direction: column;
+        gap: 20px;
     }
 }
