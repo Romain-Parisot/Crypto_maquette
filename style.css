@@ -208,6 +208,58 @@ line-height: 48px;
     height: 300px !important;
 }
 
+.bt_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.bt_top_gauche{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.bt_top_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 600;
+}
+.bt_money{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 5px;
+    gap: 5px;
+}
+.logo_bt_money{
+    width: 30px;
+}
+#calendar{
+    width: 20px;
+}
+.bt_time{
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    width: 30px;
+    height: 30px;
+}
+.bt_time_selected{
+    background-color: white !important;
+}
+.txt_time_selected{
+    color: black;
+}
+
 .Recap_transactions{
     display: flex;
     align-items: center;

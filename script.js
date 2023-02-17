@@ -40,6 +40,7 @@ new Chart(graph, {
             display: false
         }
     },
+    // permet d'ajouter le $ a chaque data de l'axe Y 
     tooltips: {
         callbacks: {
             label: function(tooltipItem, data) {
@@ -47,13 +48,32 @@ new Chart(graph, {
             }
         }
     },
+    // change la couleur de l'axe X et Y
     scales: {
+        xAxes: [{
+            ticks: {
+                fontColor: "white",
+                opacity: 0.7
+            },
+            gridLines: {
+                color: "rgba(255, 255, 255, 0.7)"
+            }
+        }],
         yAxes: [{
             ticks: {
+                fontColor: "white",
+                opacity: 0.7,
                 callback: function(value, index, values) {
                     return "$" + value;
                 }
+            },
+            gridLines: {
+                color: "rgba(255, 255, 255, 0.7)"
             }
         }]
     }
-})
+});
+
+
+
+
