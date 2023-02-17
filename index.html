@@ -10,7 +10,7 @@
 <body>
     <!-- header -->
     <header>
-        <div class="flex">
+        <div class="flex logoheader">
             <img src="img/logo_top_left.png" alt="logo Minance"><p class="inance">inance</p>
         </div>
         <div>
@@ -19,7 +19,7 @@
         <div>
             <input type="text" placeholder="Search" class="search_input">
         </div>
-        <div>
+        <div class="notif">
             <a href="#"><img src="img/Notification_icon.png" alt="logo notif"></a>
         </div>
         <div>
@@ -27,6 +27,53 @@
         </div>
     </header>
     <!-- fin header -->
+    <!-- burger -->
+    <div class="parent_burger">
+        <div class="burger none">
+            <div class="notif_burger">
+                <a href="#"><img src="img/Notification_icon.png" alt="logo notif"></a>
+            </div>
+            <ul class="ul_burger">
+                <div class="dashboard">
+                    <a href="#" class="link_sidebar">
+                        <img src="img/dashboard.png" class="logo_link_sidebar" alt="logo dashboard">
+                        <li class="color_black txt_dashboard">Dashboard</li>
+                    </a>
+                </div>
+                <a href="#" class="link_sidebar">
+                    <img src="img/invoices.png" class="logo_link_sidebar opacity07" alt="logo invoices">
+                    <li class="opacity07 txt_sidebar">Invoice</li>
+                </a>
+                <a href="#" class="link_sidebar">
+                    <img src="img/clients.png" class="logo_link_sidebar opacity07" alt="logo clients">
+                    <li class="opacity07 txt_sidebar">Clients</li>
+                </a>
+                <a href="#" class="link_sidebar">
+                    <img src="img/products.png" class="logo_link_sidebar opacity07" alt="logo products">
+                    <li class="opacity07 txt_sidebar">Products</li>
+                </a>
+                <a href="#" class="link_sidebar">
+                    <img src="img/messages.png" class="logo_link_sidebar opacity07" alt="logo messages">
+                    <li class="opacity07 txt_sidebar">Messages</li>
+                </a>
+                <a href="#" class="link_sidebar">
+                    <img src="img/settings.png" class="logo_link_sidebar opacity07" alt="logo settings">
+                    <li class="opacity07 txt_sidebar">Settings</li>
+                </a>
+                <a href="#" class="link_sidebar">
+                    <img src="img/help.png" class="logo_link_sidebar opacity07" alt="logo help">
+                    <li class="opacity07 txt_sidebar">Help</li>
+                </a>
+                <div class="logout">
+                    <a href="#" class="link_sidebar">
+                        <img src="img/logout.png" class="logo_link_sidebar opacity07" alt="logo logout">
+                        <p class="opacity07 txt_sidebar">Log Out</p>
+                    </a>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <!-- fin burger -->
     <!-- section main -->
     <section>
         <!-- left part -->
@@ -101,7 +148,7 @@
             </div>
             <div class="div_graph">
                 <div class="graph">
-                    
+                    <canvas id="graph"></canvas>
                 </div>
             </div>
             <div>
@@ -241,5 +288,9 @@
         <!-- fin right -->
     </section>
     <!-- fin section main -->
+    <!-- pour utiliser chart js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <!-- link vers mon script js  -->
+    <script src="script.js"></script>
 </body>
 </html>

@@ -42,7 +42,7 @@ section{
 /* header */
 
 header{
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -150,8 +150,6 @@ ul{
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-top: 21px;
-    margin-bottom: 10px;
 }
 
 .total_balance{
@@ -186,8 +184,7 @@ line-height: 48px;
 
 .parents_tabs{
     display: flex;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    margin-left: 100px;
 }
 
 .div_graph{
@@ -201,8 +198,14 @@ line-height: 48px;
 .graph{
     border-radius: 20px;
     width: 1000px;
-    height: 300px;
     background-color: #292727;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#graph{
+    height: 300px !important;
 }
 
 .Recap_transactions{
@@ -355,4 +358,74 @@ line-height: 48px;
 
 .opacity07{
     opacity: 0.7;
+}
+
+
+
+/* responsive */
+
+.none{
+    display: none;
+}
+
+.parent_burger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.burger{
+    width: 100vw;
+    height: 70vh;
+    background-color: grey;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    section{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hiname{
+        display: none;
+    }
+    .search_input{
+        width: 200px;
+        display: none;
+    }
+    header{
+        width: 100vw;
+    }
+    .parents_tabs{
+        /* a changer */
+        display: none;
+    }
+    .inance{
+        display: none;
+    }
+    .main_left{
+        display: none;
+    }
+    .logout{
+        position: static;
+    }
+    .dashboard{
+        margin-top: 0;
+    }
+    .notif_burger{
+        display: flex;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+    .notif{
+        display: none;
+    }
+    .ul_burger{
+        padding: 10px;
+        margin-top: 50px;
+    }
 }
